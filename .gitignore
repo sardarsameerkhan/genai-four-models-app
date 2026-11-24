@@ -1,0 +1,22 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Datasets & large outputs (never push to GitHub)
+starter/data/
+*.zip
+*.npy
+*.npz
+
+# Trained model weights (upload to Hugging Face / Google Drive instead)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS & editor files
+.DS_Store
+.vscode/
