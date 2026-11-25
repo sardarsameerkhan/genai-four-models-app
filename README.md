@@ -36,3 +36,10 @@ genai-four-models-app/
 ├── starter/                        # Dataset loaders & patch utilities (EuroSAT, UHaT, BioASQ)
 ├── requirements.txt
 └── README.md
+python -m venv .venv
+# Windows PowerShell:
+.\.venv\Scripts\Activate.ps1
+# Linux / macOS:
+source .venv/bin/activate
+
+pip install -r requirements.txt
