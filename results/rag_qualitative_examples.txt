@@ -1,0 +1,49 @@
+=== Example 0 (Hit@5=False) ===
+Question   : Is capmatinib effective for glioblastoma?
+Gold Answer: No. Combination of capmatinib buparlisib resulted in no clear activity in patients with recurrent PTEN-deficient glioblastoma.
+Closed-Book: yes
+RAG (k=5)  : Capmatinib (TabrectaTM) is an oral, small molecule mesenchymal-epithelial transition (MET) inhibitor
+Top-1 Doc  : [ID=32557339, sim=0.659] Capmatinib (Tabrecta™) is an oral, small molecule mesenchymal-epithelial 
+transition (MET) inhibitor being developed by Novartis Oncology, under a license 
+from Incyte Corporation, for the treatment of lung cancer. Capmatinib targets 
+and s...
+
+=== Example 5 (Hit@5=True) ===
+Question   : Is tubulin acetylation involved in cell motility?
+Gold Answer: Yes, induction of alpha-tubulin acetylation correlates with inhibition of cell motility, while it is involved in additional cellular processes, e.g. cell cycle progression, differentiation, intracellular trafficking, and signalling. Dynamic microtubule (MT) acetylation/deacetylation mediating cell motility and adhesion is controlled by enzymes such as HDAC6, a major cytoplasmic α-tubulin deacetylase. While its overexpression and activation is capable to enhance cell motility, HDAC6 activity can also be negatively regulated by a number of cellular inhibitors, thus decreasing the ability of cells for migration.
+Closed-Book: tubulin acetylation is a chemical reaction that causes cell motility.
+RAG (k=5)  : regulation of microtubule stability
+Top-1 Doc  : [ID=26227334, sim=0.624] Microtubules have important functions ranging from maintenance of cell 
+morphology to subcellular transport, cellular signaling, cell migration, and 
+formation of cell polarity. At the organismal level, microtubules are crucial 
+for various...
+
+=== Example 12 (Hit@5=True) ===
+Question   : What is the function of the AtxA pleiotropic regulator?
+Gold Answer: AtxA is the gene encoding the trans-activator of anthrax toxin synthesis and is essential for virulence of B. anthracis. It is located on the resident 185-kb plasmid pXO1 and its activation is stimulated by bicarbonate. AtxA controls the expression of more than a hundred genes belonging to all genetic elements, the chromosome and both virulence plasmids, including those encoding the major virulence factors. AtxA can activate or repress gene expression. In atxA+ strains, toxin gene expression is increased 5- to 20-fold in cells grown in 5% CO2 relative to cells grown in air. Dual promoters control expression of AtxA.  Transcription of the atxA gene occurs from two independent promoters, P1 and P2, whose transcription start sites are separated by 650 bp.
+Closed-Book: to regulate the pleiotropic response of the brain
+RAG (k=5)  : Apolipoprotein F can be regulated by the nuclear receptor FXR.
+Top-1 Doc  : [ID=20863885, sim=0.461] Fifteen years ago, AtxA was isolated as a toxin gene activator and five years 
+later it was shown to be a Bacillus anthracis master regulator. AtxA controls 
+the expression of more than a hundred genes belonging to all genetic elements, 
+th...
+
+=== Example 25 (Hit@5=True) ===
+Question   : Glecaprevir and Pibrentasvir are used for tratment of which disease?
+Gold Answer: The combination of direct-acting antivirals glecaprevir and pibrentasvir is effective for treatment of Hepatitis C virus infection.
+Closed-Book: malaria
+RAG (k=5)  : Ethnicity and race have a role in the pharmacokinetics and safety of multiple oral doses of glecaprevir and pibrentasvir.
+Top-1 Doc  : [ID=28929412, sim=0.647] A fixed-dose combination tablet of the hepatitis C virus (HCV) NS3/4A protease 
+inhibitor (PI) glecaprevir and the HCV NS5A inhibitor pibrentasvir 
+[glecaprevir/pibrentasvir; MAVIRET™ (EU); MAVYRET™ (USA)] has been developed by 
+AbbVie. Ora...
+
+=== Example 40 (Hit@5=True) ===
+Question   : Is ozanezumab effective for amyotrophic lateral sclerosis?
+Gold Answer: No. Ozanezumab did not show efficacy compared with placebo in patients with amyotrophic lateral sclerosis. Therefore, Nogo-A does not seem to be an effective therapeutic target in ALS.
+Closed-Book: yes
+RAG (k=5)  : ozanezumab and minocycline in the treatment of amyotrophic lateral sclerosis in patients with ALS.
+Top-1 Doc  : [ID=28139349, sim=0.726] BACKGROUND: Neurite outgrowth inhibitor A (Nogo-A) is thought to have a role in 
+the pathophysiology of amyotrophic lateral sclerosis (ALS). A monoclonal 
+antibody against Nogo-A showed a positive effect in the SOD1G93A mouse model of 
+ALS,...
